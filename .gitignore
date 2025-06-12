@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+*.sqlite3
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# VSCode / IDEs
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Log and Cache
+*.log
+*.tmp
+*.bak
+.cache/
+*.swp
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Compiled files
+*.o
+*.so
+*.exe
+*.dll
+*.class
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# SATE
+ENNI_test/
+ENNI_test.py
+ENNI_transcript.py
+input/
+performance_eval/
+session_data/
+
+# Model
+CrisperWhisper_local/
